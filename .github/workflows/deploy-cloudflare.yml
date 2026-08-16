@@ -67,7 +67,7 @@ jobs:
         with:
           node-version: 24
 
-      - run: npm ci
+      - run: npm install
 
       - name: Ensure D1 database exists
         id: d1
